@@ -7,8 +7,9 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(cors());
+app.use(express.json());
 
-app.get("/", async (req, res) => {
+app.post("/", async (req, res) => {
   try {
     const response = await fetch("https://api.openai.com/v1/completions", {
       method: "POST",

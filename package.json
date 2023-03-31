@@ -1,0 +1,25 @@
+{
+  "name": "chatgpt-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for ChatGPT API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybersaksham/ChatGPT-Proxy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cybersaksham/ChatGPT-Proxy/issues"
+  },
+  "homepage": "https://github.com/cybersaksham/ChatGPT-Proxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
